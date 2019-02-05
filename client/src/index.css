@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 0rem;
+  }
+
+.card {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: tranform 400ms ease-out;
+  }
+
+.card:hover {
+      transform: scale(1.15);
+  }
